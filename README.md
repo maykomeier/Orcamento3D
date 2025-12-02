@@ -18,6 +18,7 @@ Custo hora-máquina (opcional)
 Valor fixo de preparação (opcional)
 O sistema cruza dados do G-code com valores cadastrados, calcula o orçamento e exibe o total.
 O usuário pode imprimir, baixar ou copiar o resumo do orçamento.
+Possui também um pequeno fluxo de caixa para controle financeiro.
 
 O operador define previamente:
 Custo por grama (por material/cor) -	Base para cálculo do custo do filamento
@@ -26,6 +27,31 @@ Potência média da impressora (W) -	Para estimar consumo elétrico
 Margem de lucro (%)	Aplicada sobre o subtotal
 Taxas adicionais de serviços (opcional)
 
-Telas do sistema:
+# Observação: Ao fazer o upload do GCODE, aguarde as informações serem carregadas.
+
+# Instalação:
+Instale o php8, apache e maysql/mariadb
+Importe o schema.sql em uma base no mysql ou mariadb.
+copie os arquivos para o diretório raiz do apache.
+
+# Telas do sistema:
+
+Parâmetros
+<img width="1889" height="901" alt="image" src="https://github.com/user-attachments/assets/e8e38455-cd15-465f-a89a-e6d0270b7b80" />
+
+Dashboard
+<img width="1891" height="902" alt="image" src="https://github.com/user-attachments/assets/e611c3ad-9dc3-462a-91c7-938411660cbe" />
+
+Itens do Orçamento
+<img width="1879" height="906" alt="image" src="https://github.com/user-attachments/assets/bb4f384c-9587-4265-b1d9-804296c3e065" />
+
+Impressão do orçamento
+<img width="1132" height="882" alt="image" src="https://github.com/user-attachments/assets/9331ac46-9fc0-462f-acaf-75ec058e1158" />
+
+Adição de Item (GCODE)
+<img width="487" height="870" alt="image" src="https://github.com/user-attachments/assets/fa6ab1af-50ed-4e20-9828-5bd333da25cf" />
+
+Financeiro (Fluxo de Caixa simples)
+<img width="1884" height="883" alt="image" src="https://github.com/user-attachments/assets/3ccef4bd-f87e-459b-b82e-b02cd80c98f0" />
 
 
